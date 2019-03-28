@@ -1,0 +1,175 @@
+c:\users\deniz\source\repos\WpfApp3\WpfApp3\bin\Debug\WpfApp3.exe.config
+c:\users\deniz\source\repos\WpfApp3\WpfApp3\bin\Debug\WpfApp3.exe
+c:\users\deniz\source\repos\WpfApp3\WpfApp3\bin\Debug\WpfApp3.pdb
+c:\users\deniz\source\repos\WpfApp3\WpfApp3\obj\Debug\App.g.cs
+c:\users\deniz\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.cache
+c:\users\deniz\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.lref
+c:\users\deniz\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.g.resources
+c:\users\deniz\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.Properties.Resources.resources
+c:\users\deniz\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csproj.GenerateResource.cache
+c:\users\deniz\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csproj.CoreCompileInputs.cache
+c:\users\deniz\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.exe
+c:\users\deniz\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.pdb
+C:\Users\deniz\source\repos\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csprojAssemblyReference.cache
+C:\Users\deniz\source\repos\WpfApp3\WpfApp3\obj\Debug\MainWindow.g.cs
+C:\Users\deniz\source\repos\WpfApp3\WpfApp3\obj\Debug\MainWindow.baml
+C:\Users\deniz\source\repos\WpfApp3\WpfApp3\obj\Debug\Frames\frmYoutube.baml
+C:\Users\deniz\source\repos\WpfApp3\WpfApp3\obj\Debug\Frames\frmLocal.g.cs
+C:\Users\deniz\source\repos\WpfApp3\WpfApp3\obj\Debug\Frames\frmYoutube.g.cs
+C:\Users\deniz\source\repos\WpfApp3\WpfApp3\obj\Debug\Frames\frmPlayList.g.cs
+C:\Users\deniz\source\repos\WpfApp3\WpfApp3\obj\Debug\Frames\frmLocal.baml
+C:\Users\deniz\source\repos\WpfApp3\WpfApp3\obj\Debug\Frames\frmPlayList.baml
+C:\Users\deniz\source\repos\WpfApp3\WpfApp3\obj\Debug\App.baml
+C:\Users\deniz\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\Frames\frmLocal.g.cs
+C:\Users\deniz\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\Frames\frmPlayList.g.cs
+C:\Users\deniz\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\Frames\frmYoutube.g.cs
+C:\Users\deniz\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\MainWindow.g.cs
+C:\Users\deniz\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\App.g.cs
+C:\Users\deniz\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\App.baml
+C:\Users\deniz\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\Frames\frmLocal.baml
+C:\Users\deniz\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\Frames\frmPlayList.baml
+C:\Users\deniz\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\Frames\frmYoutube.baml
+C:\Users\deniz\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\MainWindow.baml
+C:\Users\deniz\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csproj.GenerateResource.cache
+C:\Users\deniz\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csproj.CoreCompileInputs.cache
+C:\Users\deniz\source\repos\Yes\WpfApp3\WpfApp3\bin\Debug\WpfApp3.exe.config
+C:\Users\deniz\source\repos\Yes\WpfApp3\WpfApp3\bin\Debug\WpfApp3.exe
+C:\Users\deniz\source\repos\Yes\WpfApp3\WpfApp3\bin\Debug\WpfApp3.pdb
+C:\Users\deniz\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.cache
+C:\Users\deniz\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.lref
+C:\Users\deniz\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\WpfApp3.g.resources
+C:\Users\deniz\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\WpfApp3.Properties.Resources.resources
+C:\Users\deniz\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\WpfApp3.exe
+C:\Users\deniz\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\WpfApp3.pdb
+C:\Users\me\Source\Repos\Yes\WpfApp3\WpfApp3\obj\Debug\Frames\frmLocal.g.cs
+C:\Users\me\Source\Repos\Yes\WpfApp3\WpfApp3\obj\Debug\Frames\frmPlayList.g.cs
+C:\Users\me\Source\Repos\Yes\WpfApp3\WpfApp3\obj\Debug\Frames\frmYoutube.g.cs
+C:\Users\me\Source\Repos\Yes\WpfApp3\WpfApp3\obj\Debug\MainWindow.g.cs
+C:\Users\me\Source\Repos\Yes\WpfApp3\WpfApp3\obj\Debug\App.g.cs
+C:\Users\me\Source\Repos\Yes\WpfApp3\WpfApp3\obj\Debug\App.baml
+C:\Users\me\Source\Repos\Yes\WpfApp3\WpfApp3\obj\Debug\Frames\frmLocal.baml
+C:\Users\me\Source\Repos\Yes\WpfApp3\WpfApp3\obj\Debug\Frames\frmPlayList.baml
+C:\Users\me\Source\Repos\Yes\WpfApp3\WpfApp3\obj\Debug\Frames\frmYoutube.baml
+C:\Users\me\Source\Repos\Yes\WpfApp3\WpfApp3\obj\Debug\MainWindow.baml
+C:\Users\me\Source\Repos\Yes\WpfApp3\WpfApp3\obj\Debug\WpfApp3.Properties.Resources.resources
+C:\Users\me\Source\Repos\Yes\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csproj.GenerateResource.cache
+C:\Users\me\Source\Repos\Yes\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csproj.CoreCompileInputs.cache
+C:\Users\me\Source\Repos\Yes\WpfApp3\WpfApp3\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\me\Source\Repos\Yes\WpfApp3\WpfApp3\obj\Debug\Interop.WMPLib.dll
+C:\Users\me\Source\Repos\Yes\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csproj.ResolveComReference.cache
+C:\Users\me\Source\Repos\Yes\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csprojAssemblyReference.cache
+C:\Users\me\Source\Repos\Yes\WpfApp3\WpfApp3\bin\Debug\policy.2.0.taglib-sharp.dll
+C:\Users\me\Source\Repos\Yes\WpfApp3\WpfApp3\bin\Debug\taglib-sharp.dll
+C:\Users\me\Source\Repos\Yes\WpfApp3\WpfApp3\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\me\Source\Repos\Yes\WpfApp3\WpfApp3\obj\Debug\WpfApp3.csproj.CopyComplete
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\Windows\PlayListWindow.g.cs
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\Windows\PlayListWindow.baml
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\Frames\FrmDownload.g.cs
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\Frames\FrmDownload.baml
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\bin\Debug\Newtonsoft.Json.dll
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\bin\Debug\Newtonsoft.Json.xml
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\bin\Debug\AngleSharp.dll
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\bin\Debug\YoutubeExplode.dll
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\bin\Debug\AngleSharp.xml
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\bin\Debug\YoutubeExplode.xml
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\bin\Debug\NReco.VideoConverter.dll
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\bin\Debug\NReco.VideoConverter.xml
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\Windows\OpenPlaylistWindow.g.cs
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\Windows\OpenPlaylistWindow.baml
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\bin\Debug\WpfApp3.exe.config
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\bin\Debug\WpfApp3.exe
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\bin\Debug\WpfApp3.pdb
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\WpfApp3_Content.g.cs
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.cache
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.lref
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\WpfApp3.g.resources
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\WpfApp3.exe
+C:\Users\me\source\repos\Yes\WpfApp3\WpfApp3\obj\Debug\WpfApp3.pdb
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\bin\Debug\WpfApp3.exe.config
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\bin\Debug\WpfApp3.exe
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\bin\Debug\WpfApp3.pdb
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\bin\Debug\AngleSharp.dll
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\bin\Debug\Newtonsoft.Json.dll
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\bin\Debug\NReco.VideoConverter.dll
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\bin\Debug\policy.2.0.taglib-sharp.dll
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\bin\Debug\taglib-sharp.dll
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\bin\Debug\YoutubeExplode.dll
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\bin\Debug\AngleSharp.xml
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\bin\Debug\Newtonsoft.Json.xml
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\bin\Debug\NReco.VideoConverter.xml
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\bin\Debug\YoutubeExplode.xml
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\WpfApp3.csprojAssemblyReference.cache
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\Interop.WMPLib.dll
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\WpfApp3.csproj.ResolveComReference.cache
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\Frames\FrmDownload.g.cs
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\Frames\frmLocal.g.cs
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\Frames\frmPlayList.g.cs
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\Frames\frmYoutube.g.cs
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\MainWindow.g.cs
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\Windows\OpenPlaylistWindow.g.cs
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\Windows\PlayListWindow.g.cs
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\App.g.cs
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\WpfApp3_Content.g.cs
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.cache
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.lref
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\App.baml
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\Frames\FrmDownload.baml
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\Frames\frmLocal.baml
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\Frames\frmPlayList.baml
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\Frames\frmYoutube.baml
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\MainWindow.baml
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\Windows\OpenPlaylistWindow.baml
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\Windows\PlayListWindow.baml
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\WpfApp3.g.resources
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\WpfApp3.Properties.Resources.resources
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\WpfApp3.csproj.GenerateResource.cache
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\WpfApp3.csproj.CoreCompileInputs.cache
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\WpfApp3.csproj.CopyComplete
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\WpfApp3.exe
+C:\Users\me\source\repos\Yes\WpfApp3 - Copy\WpfApp3\obj\Debug\WpfApp3.pdb
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\bin\Debug\WpfApp3.exe.config
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\bin\Debug\WpfApp3.exe
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\bin\Debug\WpfApp3.pdb
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\bin\Debug\AngleSharp.dll
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\bin\Debug\Newtonsoft.Json.dll
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\bin\Debug\NReco.VideoConverter.dll
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\bin\Debug\policy.2.0.taglib-sharp.dll
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\bin\Debug\taglib-sharp.dll
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\bin\Debug\YoutubeExplode.dll
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\bin\Debug\AngleSharp.xml
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\bin\Debug\Newtonsoft.Json.xml
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\bin\Debug\NReco.VideoConverter.xml
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\bin\Debug\YoutubeExplode.xml
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\WpfApp3.csprojAssemblyReference.cache
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\Interop.WMPLib.dll
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\WpfApp3.csproj.ResolveComReference.cache
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\Frames\FrmDownload.g.cs
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\Frames\frmLocal.g.cs
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\Frames\frmPlayList.g.cs
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\Frames\frmYoutube.g.cs
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\MainWindow.g.cs
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\Windows\OpenPlaylistWindow.g.cs
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\Windows\PlayListWindow.g.cs
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\App.g.cs
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\WpfApp3_Content.g.cs
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.cache
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\WpfApp3_MarkupCompile.lref
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\App.baml
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\Frames\FrmDownload.baml
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\Frames\frmLocal.baml
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\Frames\frmPlayList.baml
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\Frames\frmYoutube.baml
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\MainWindow.baml
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\Windows\OpenPlaylistWindow.baml
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\Windows\PlayListWindow.baml
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\WpfApp3.g.resources
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\WpfApp3.Properties.Resources.resources
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\WpfApp3.csproj.GenerateResource.cache
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\WpfApp3.csproj.CoreCompileInputs.cache
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\WpfApp3.csproj.CopyComplete
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\WpfApp3.exe
+C:\Users\me\source\repos\Yes\Mateusz - Ergin MediaPlayer(Lasagna)\WpfApp3\obj\Debug\WpfApp3.pdb

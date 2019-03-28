@@ -1,0 +1,303 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="MainWindow" 
+        Height="471"
+        Width="701" 
+        MinHeight="470" 
+        MinWidth="700"
+        Background="{x:Null}" 
+        WindowStyle="None" 
+        Foreground="{x:Null}" 
+        Visibility="Visible" 
+        ResizeMode="CanResize"
+        Loaded="Window_Loaded"
+        SizeChanged="Window_SizeChanged"
+        >
+
+    <WindowChrome.WindowChrome>
+        <WindowChrome
+                 CaptionHeight="90"
+                 ResizeBorderThickness="5"
+                 UseAeroCaptionButtons="False">
+        </WindowChrome>
+    </WindowChrome.WindowChrome>
+
+    <Window.Resources>
+        <Image x:Key="imgShuffleFalse" Source="Icons/baseline_shuffle_black_48dp.png"/>
+        <Image x:Key="imgShuffleTrue" Source="Icons/baseline_shuffle_white_48dp.png"/>
+        <Image x:Key="imgRepeatFalse" Source="Icons/baseline_repeat_black_48dp.png"/>
+        <Image x:Key="imgRepeatTrue" Source="Icons/baseline_repeat_white_48dp.png"/>
+        <Image x:Key="imgPlay" Source="Icons/play.png"/>
+        <Image x:Key="imgPause" Source="Icons/pause.png"/>
+        <Image x:Key="imgMax" Source="Icons/full_screen.png"/>
+        <Image x:Key="imgMin" Source="Icons/exit_full_screen.png"/>
+    </Window.Resources>
+
+    <Grid x:Name="gridMain" Background="Black">
+        <Grid x:Name="Background" Margin="0,81,0,0">
+            <Image x:Name="imgMainBackground" Stretch="UniformToFill">
+                <Image.Effect>
+                    <BlurEffect Radius="10"/>
+                </Image.Effect>
+            </Image>
+            <Rectangle>
+                <Rectangle.Fill>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="0.9">
+                        <GradientStop Color="Black" Offset="1"/>
+                        <GradientStop Color="White"/>
+                        <GradientStop Color="#FF929292" Offset="0.151"/>
+                        <GradientStop Color="#FF525252" Offset="0.297"/>
+                        <GradientStop Color="#FF303030" Offset="0.527"/>
+                        <GradientStop Color="#FF181818" Offset="0.837"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+        </Grid>
+        <MediaElement x:Name="mediaPlayer" Visibility="Visible" LoadedBehavior="Manual" MediaOpened="MediaPlayer_MediaOpened" MediaEnded="MediaPlayer_MediaEnded" Margin="383,293,10,20"/>
+        <Grid x:Name="Bottom" VerticalAlignment="Bottom" Height="15">
+            <Rectangle Fill="#FF1E1E1E" />
+            <Canvas Margin="0" 
+                    ClipToBounds="True" 
+                    x:Name="canMain" Height="15" Width="200" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <TextBlock x:Name="txtMovingText" Margin="0" FontSize="12" Foreground="White"><Run Text=""/></TextBlock>
+            </Canvas>
+            <Label x:Name="labelMediaProgressTime" Margin="90,2.18,244.013,2.18" Foreground="White" FontSize="8" Padding="0" HorizontalAlignment="Center" VerticalAlignment="Center" Content="00:00"/>
+            <Slider x:Name="sliderMediaProgress" HorizontalAlignment="Center" Margin="286,0,268,0" VerticalAlignment="Center" Width="139" Height="15" RenderTransformOrigin="0.318,0.333" ValueChanged="SliderMediaProgress_ValueChanged"/>
+            <Label x:Name="labelMediaProgressTotalTime" Margin="430,2.18,244.013,2.18" Foreground="White" FontSize="8" Padding="0" HorizontalAlignment="Center" VerticalAlignment="Center" Content="00:00"/>
+        </Grid>
+        <Grid x:Name="Top" Height="90" Margin="0,0,0,339" Background="#FF1E1E1E" VerticalAlignment="Top" MouseDown="Top_MouseDown" >
+            <Grid x:Name="CaptionButtuns" WindowChrome.IsHitTestVisibleInChrome="True">
+                <Button x:Name="btnHide"
+                    Height="30" 
+                    Margin="0,0,135,0" 
+                    HorizontalAlignment="Right" 
+                    Width="45" 
+                    VerticalAlignment="Top"
+                    BorderThickness="0" 
+                    Background="#FF222222"
+                    Click="BtnHide_Click">
+                    <Image Source="Icons/minimize.png"/>
+                </Button>
+                <Button x:Name="btnPop"
+                    Height="30" 
+                    Margin="0,0,90,0" 
+                    HorizontalAlignment="Right" 
+                    Width="45" 
+                    VerticalAlignment="Top"
+                    BorderThickness="0" Background="#FF222222" 
+                    Foreground="{x:Null}" 
+                    BorderBrush="{x:Null}">
+                    <Image Source="Icons/play_circle.png"/>
+                </Button>
+                <Button 
+                    x:Name="btnMin"
+                    Width="45"
+                    VerticalAlignment="Top"
+                    HorizontalAlignment="Right" 
+                    Height="30" 
+                    Margin="0,0,45,0"
+                    Background="#FF222222"
+                    BorderThickness="0"
+                    Content="{DynamicResource imgMax}"
+                    Click="BtnMin_Click"
+                    >
+                </Button>
+                <Button 
+                    x:Name="btnClose"
+                    Width="45"
+                    VerticalAlignment="Top" 
+                    HorizontalAlignment="Right" 
+                    Height="30" 
+                    Margin="0" 
+                    Background="#FF222222"
+                    BorderThickness="0"
+                    Click="BtnClose_Click">
+                    <Image Source="Icons/close.png"/>
+                </Button>
+            </Grid>
+            <Rectangle Height="2" Margin="0" VerticalAlignment="Bottom" Fill="White"/>
+        </Grid>
+        <Grid x:Name="FrameGrid" Margin="0,95,0,0">
+            <Frame x:Name="frmMain" Margin="20" NavigationUIVisibility="Hidden"/>
+        </Grid>
+        <Grid x:Name="Buttons" HorizontalAlignment="Left" Width="205" WindowChrome.IsHitTestVisibleInChrome="True" Margin="0,0,0,373">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="271*"/>
+                <RowDefinition Height="169*"/>
+            </Grid.RowDefinitions>
+            <Button x:Name="btnListButtons"
+                    HorizontalAlignment="Left" 
+                    VerticalAlignment="Top" 
+                    Width="30" 
+                    Margin="10,10,0,0" 
+                    Background="#FF1E1E1E" 
+                    BorderBrush="White" 
+                     Foreground="{x:Null}" 
+                    Click="BtnListButtons_Click">
+                <Image Source="Icons/menu_icon.png"/>
+            </Button>
+            <Grid x:Name="gridBtnChoices" Visibility="Hidden" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="50,0,0,0">
+                <Button x:Name="btnLocal"
+                    HorizontalAlignment="Left" 
+                        VerticalAlignment="Top" 
+                         Width="30" 
+                        Height="30"
+                         Margin="0,10,0,0" 
+                        Background="#FF1E1E1E" 
+                        BorderBrush="White" 
+                        Foreground="{x:Null}" 
+                        Click="BtnLocal_Click">
+                    <Image Source="Icons/local_icon.png"/>
+                </Button>
+                <Button x:Name="btnYouTube" 
+                    Margin="40,10,0,0"
+                Background="#FF1E1E1E" 
+                BorderBrush="White" 
+                Foreground="{x:Null}"
+                        HorizontalAlignment="Left"
+                        Width="30" Height="30" 
+                        VerticalAlignment="Top"
+                        Click="BtnYouTube_Click">
+                    <Image Source="Icons/youtube_icon.png"/>
+                </Button>
+                <Button x:Name="btnPlayList"
+                    HorizontalAlignment="Left" 
+                    VerticalAlignment="Bottom" 
+                    Width="30" 
+                    Margin="80,10,0,0" 
+                Background="#FF1E1E1E" 
+                BorderBrush="White" 
+                Foreground="{x:Null}" Click="BtnPlayList_Click">
+                    <Image Source="Icons/playlist_icon.png"/>
+                </Button>
+                <Button
+                    x:Name="btnDownload"
+                    HorizontalAlignment="Left" 
+                    VerticalAlignment="Bottom" 
+                    Width="30" 
+                    Margin="120,10,0,0" 
+                    Background="#FF1E1E1E" 
+                    BorderBrush="White" 
+                    Foreground="{x:Null}"
+                    Click="BtnDownload_Click">
+                    <Image Source="Icons/baseline_get_app_white_48dp.png"/>
+                </Button>
+            </Grid>
+        </Grid>
+        <Grid x:Name="Player" Height="180" Margin="0,0,0,0" VerticalAlignment="Top" WindowChrome.IsHitTestVisibleInChrome="True">
+            <Ellipse x:Name="firstLayerofEllipse"  HorizontalAlignment="Center" Height="100" Margin="296.5,14,296.5,66" Stroke="Black" VerticalAlignment="Center" Width="100">
+                <Ellipse.Fill>
+                    <ImageBrush x:Name="imgPlayPauseBackground1" ImageSource="planeBackground.png"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Ellipse x:Name="secondLayerofEllipse"  HorizontalAlignment="Center" Height="100" Margin="296.5,14,296.5,66" Stroke="Black" VerticalAlignment="Center" Width="100">
+                <Ellipse.Fill>
+                    <ImageBrush x:Name="imgPlayPauseBackground" ImageSource="planeBackground.png"/>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Button 
+                x:Name="btnPlayPause"
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center" 
+                Width="72" 
+                Foreground="{x:Null}" 
+                BorderBrush="{x:Null}" 
+                Height="72" 
+                Margin="310.5,29,310.5,79"
+                Click="BtnPlayPause_Click" Background="{x:Null}" Content="{DynamicResource imgPlay}"/>
+            <Button 
+                x:Name="btnPlayNext"
+                Click="BtnPlayNext_Click"
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center" 
+                Width="48" 
+                Foreground="{x:Null}" 
+                BorderBrush="{x:Null}" 
+                Height="48" 
+                Margin="421.5,42,223.5,90" RenderTransformOrigin="0.01,0.479">
+                <Button.Background>
+                    <ImageBrush ImageSource="Icons/baseline_skip_next_white_48dp.png" Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+            <Button 
+                x:Name="btnPlayPrevious"
+                Click="BtnPlayPrevious_Click"
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center" 
+                Width="48" 
+                Foreground="{x:Null}" 
+                BorderBrush="{x:Null}" 
+                Height="48" 
+                Margin="223.5,42,421.5,90" RenderTransformOrigin="0.01,0.479">
+                <Button.Background>
+                    <ImageBrush ImageSource="Icons/baseline_skip_previous_white_48dp.png" Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+            <Button 
+                x:Name="btnPlayNext_10sec"
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center" 
+                Width="24" 
+                Foreground="{x:Null}" 
+                BorderBrush="{x:Null}" 
+                Height="24" 
+                Margin="494.25,42,174.75,89.6" RenderTransformOrigin="0.01,0.479" Click="BtnPlayNext_10sec_Click">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleX="-1"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+                <Button.Background>
+                    <ImageBrush ImageSource="Icons/baseline_replay_10_white_48dp.png" Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+            <Button 
+                x:Name="btnPlayPrevious_10sec"
+                Click="BtnPlayPrevious_10sec_Click"
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center" 
+                Width="24" 
+                Foreground="{x:Null}" 
+                BorderBrush="{x:Null}" 
+                Height="24" 
+                Margin="199.5,42,469.5,90" RenderTransformOrigin="0.01,0.479">
+                <Button.Background>
+                    <ImageBrush ImageSource="Icons/baseline_replay_10_white_48dp.png" Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+            <Button
+                x:Name="btn_Shuffle"
+                Click="Btn_Shuffle_Click"
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center" 
+                Width="24" 
+                Foreground="{x:Null}" 
+                BorderBrush="{x:Null}" 
+                Height="24" 
+                Margin="401.5,18,267.5,138" RenderTransformOrigin="0.01,0.479" Background="{x:Null}" Content="{DynamicResource imgShuffleFalse}"/>
+            <Button
+                x:Name="btnRepeat"
+                Click="BtnRepeat_Click"
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center" 
+                Width="24" 
+                Foreground="{x:Null}" 
+                BorderBrush="{x:Null}" 
+                Height="24" 
+                Margin="267.5,18,401.5,138" RenderTransformOrigin="0.01,0.479" Background="{x:Null}" Content="{DynamicResource imgRepeatFalse}"/>
+            <Slider x:Name="sliderVolume" Margin="517.5,60,77.5,102" RenderTransformOrigin="-0.5,-0.722" ValueChanged="SliderVolume_ValueChanged" Maximum="100" Height="18" VerticalAlignment="Center" HorizontalAlignment="Center" Width="98"/>
+            <Label x:Name="labelVolume" Foreground="White" Margin="620.5,54,25,97" HorizontalAlignment="Center" Width="47.5" Height="29" VerticalAlignment="Center" Content="0"/>
+        </Grid>
+    </Grid>
+
+
+
+</Window>

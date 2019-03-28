@@ -1,0 +1,66 @@
+﻿<Page x:Class="WpfApp3.Frames.FrmYoutube"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp3.Frames"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="frmYoutube">
+
+
+    <Grid>
+        
+        <Grid VerticalAlignment="Top" Height="20" Grid.ColumnSpan="2">
+            <Rectangle Fill="White"/>
+            <Button x:Name="btnHome" Click="BtnHome_Click" Width="20" Height="20" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="{x:Null}">
+                <Button.Background>
+                    <ImageBrush ImageSource="/WpfApp3;component/Icons/youtube_red_home_icon.png"/>
+                </Button.Background>
+            </Button>
+            <Button Name="btnBack" Click="BtnBack_Click" Height="20" Width="20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20, 0, 0 ,0" BorderBrush="{x:Null}">
+                <Button.Background>
+                    <ImageBrush ImageSource="/WpfApp3;component/Icons/back_black_icon.png"/>
+                </Button.Background>
+            </Button>
+            <Button Name="btnForward" Click="BtnForward_Click" Height="20" Width="20" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40, 0, 0 ,0" BorderBrush="{x:Null}">
+                <Button.Background>
+                    <ImageBrush ImageSource="/WpfApp3;component/Icons/forward_black_icon.png"/>
+                </Button.Background>
+            </Button>
+            <TextBox x:Name="txtUrl" Padding="0" Background="{x:Null}" FontSize="15" KeyDown="TxtUrl_KeyDown" BorderBrush="{x:Null}" Foreground="Black" Margin="60,0,105,0" />
+            <ComboBox x:Name="cbAudioVideo" Margin="0,0,60,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="70" FontFamily="/WpfApp3;component/Fonts/#Roboto" FontSize="15">
+                <ComboBoxItem Content="Audio"></ComboBoxItem>
+                <ComboBoxItem Content="Video"></ComboBoxItem>
+            </ComboBox>
+            <Button x:Name="btnDownload" Click="BtnDownload_Click"  HorizontalAlignment="Right" VerticalAlignment="Top" Width="20" Height="20" Margin="0,0,30,0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                <Button.Background>
+                    <ImageBrush ImageSource="/WpfApp3;component/Icons/baseline_get_app_black_48dp.png"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btnAdd" Click="BtnAdd_Click" Visibility="Visible" HorizontalAlignment="Right" VerticalAlignment="Top" Width="20" Height="20" Margin="0,0,5,0" BorderBrush="{x:Null}" Foreground="{x:Null}">
+                <Button.Background>
+                    <ImageBrush ImageSource="/WpfApp3;component/Icons/add_black.png"/>
+                </Button.Background>
+            </Button>
+        </Grid>
+        <Grid Grid.ColumnSpan="2">
+            <WebBrowser x:Name="wbYoutube" Margin="0,20,0,0"  LoadCompleted="WbYoutube_LoadCompleted" Navigating="WbYoutube_Navigating"/>
+        </Grid>
+        <ProgressBar Name="pbDownload" 
+                      Visibility="Visible" 
+                      HorizontalAlignment="Right" 
+                      VerticalAlignment="Bottom" 
+                      Height="15" Width="100" 
+                      Background="#FF1E1E1E" 
+                      BorderBrush="{x:Null}" 
+                      Foreground="#FF424242" 
+                      Margin="0,0,0,-20" Grid.Column="1">
+        </ProgressBar>
+
+
+
+        <Label Name="labelLoadBar" Height="15" Width="100" Background="{x:Null}" Margin="0,0,105,-20" Padding="0" VerticalAlignment="Bottom" HorizontalAlignment="Right" Foreground="White" FontSize="10" HorizontalContentAlignment="Right" Grid.Column="1"  ></Label>
+
+    </Grid>
+</Page>

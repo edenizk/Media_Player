@@ -1,0 +1,43 @@
+﻿<Window x:Class="WpfApp3.Windows.OpenPlaylistWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3.Windows"
+        mc:Ignorable="d"
+        Title="Choose a Playlist:" Height="400" Width="200" Background="#FF1E1E1E">
+    <Grid>
+        <ListBox 
+                x:Name="lbPlayLists"
+                MouseDoubleClick="LbPlayLists_MouseDoubleClick_1"
+                Visibility="Visible" 
+                KeyDown="LbPlayLists_KeyDown"
+                Background="#FF1E1E1E"
+                Foreground="White"
+            Margin="0, 0, 0, 50"/>
+        <Button 
+            Name="btnOpen"
+            Content="Open"
+            Click="BtnOpen_Click"
+            Background="#FF1E1E1E"
+            Foreground="White"
+            Height="30"
+            Width="60"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Bottom"
+            Margin="10">
+        </Button>
+        <Button 
+            Name="btnCancel"
+            Content="Cancel"
+            Click="BtnCancel_Click"
+            Background="#FF1E1E1E"
+            Foreground="White"
+            Height="30"
+            Width="60"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Bottom"
+            Margin="10">
+        </Button>
+    </Grid>
+</Window>
