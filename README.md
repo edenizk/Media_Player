@@ -57,24 +57,32 @@ classes ​ **_Local ​_** and ​ **_Youtube​_** , for getting path or Url t
  **3.3. API**
 We used NuGet for getting APIs. NugGet is a Visual Studio extension that
 makes it easy to add, remove, and update libraries and tools in the project:
+
 ● **Taglib**: reading and editing the meta-data of several popular audio
 and video formats.
+
 ● **YoutubeExplode**: getting metadata of Youtube videos, playlists and
 channels. It doesn’t use the official API, so there is no need to use
 Youtube API key. It uses AngleSharp and Newtonsoft.Json libraries.
+
     ○ AngleSharp: library that gives you the ability to parse angle
     bracket based on hyper-texts(HTML SVG, etc.).
+    
    ○ Newtonsoft.Json: JSON framework for the .NET
+   
    ● ​Nreco.VideoConverter: Video converter component for .NET.
        wrapper for FFmpeg command line tool, it can convert
        video/audio files, screen capture, etc.(everything that is
        possible with FFmpeg from the command line).
 
 **4. Problems**
+
     · ​Web browser supports IE 7, and because of that Google doesn’t allow
        us to use a search engine of youtube.
+       
     · ​Downloaded videos or audios from youtube duration might be 75%
        percent incorrect due to the API.
+       
 **5. Conclusion**
 
 
